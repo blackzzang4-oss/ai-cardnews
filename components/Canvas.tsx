@@ -44,7 +44,7 @@ export default function Canvas({ hasGenerated }: CanvasProps) {
                                     }}
                                 >
                                     <img
-                                        src={`https://via.placeholder.com/1080x1080/6366f1/ffffff?text=Scene+${card.id}`}
+                                        src={`https://dummyimage.com/1080x1080/6366f1/ffffff&text=Scene+${card.id}`}
                                         alt={`Scene ${card.id}`}
                                         className="w-full h-full object-cover"
                                     />
